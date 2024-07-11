@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Sarala:wght@400;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+.cabeçalho{
+    background-color: #000;
+    height:120px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #FFF;
+}
+.nav-menu{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.nav-menu img{
+    width:30px;
+}
+.nav-menu a{
+    font-family: 'Roboto', sans-serif;
+    color:#FFF;
+    text-decoration: none;
+}
+.menu-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:400px;
+}
+body{
+    background-color: #333;
+}
+
+.login{
+    display:flex;
+    flex-direction:column;
+}
+
+.separar-section{
+    margin-left:200px;
+    margin-top:200px;
+    display:flex;
+    flex-direction:row;
+    align-Items:top;
+    justify-content: center;
+    gap:200px;
+}
+
+.titulo-login{
+    font-size:35px;
+    font-weight:400;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+}
+
+.subtitulo-login{
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    font-size:20px;
+    font-weight:400;
+    margin-top:10px;
+}
+.login-info{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-top:40px;
+}
+.login-entrar{
+    gap:30px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.conteudo-cadastro{
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin-bottom:40px;
+}
+.conteudo-secundario{
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-cadastro{
+    font-size:25px;
+    font-weight:400;
+}
+.rodape{
+    margin-top:222px;
+    color:white;
+    background-color:#242221;
+    height:120px;
+}
+
+.conteudo-rodape{
+    
+    gap:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.titulo-rodape{
+    margin-top:20px;
+}
+
+.form-rodape{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.form-rodape input{
+    border:none;
+    border-radius:5px;
+    height:25px;
+}
+
+.form-rodape button{
+    height:25px;
+}
